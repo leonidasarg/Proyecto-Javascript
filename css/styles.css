@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+  /*----------Header-------------*/
+  header {
+    width: 100%;
+    height: 600px;
+    background: #6441A5;
+    background: -webkit-linear-gradient(to right, rgba(41, 8, 68, 0.603), rgba(100, 65, 164, 0.61));
+    background: linear-gradient(to right, rgba(41, 8, 68, 0.603), rgba(100, 65, 164, 0.616)), url(../images/Banner-brk.png);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative; }
+    header .wave {
+      position: absolute;
+      bottom: 0;
+      width: 100%; }
+    header .textos-header {
+      display: flex;
+      height: 430px;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      text-align: center; }
+      header .textos-header h1 {
+        font-size: 50px;
+        color: #fff;
+        font-family: 'Titillium Web', sans-serif; }
+  
+  /*-------Intro-Nosotros--------*/
+  .intro-container {
+    width: 100%;
+    height: 400px;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2); }
+    .intro-container h2 {
+      text-align: center;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 25px;
+      padding-top: 30px;
+      color: #191970;
+      text-align: center; }
+    .intro-container .intro-subcontainer {
+      display: flex;
+      justify-content: space-evenly; }
+      .intro-container .intro-subcontainer img {
+        width: 40%;
+        height: 300px;
+        margin-left: 20px; }
+      .intro-container .intro-subcontainer .intro-parrafo {
+        display: flex;
+        width: 48%;
+        text-align: justify;
+        color: #191970;
+        align-items: center;
+        font-weight: 300;
+        padding: 0 0 30px 15px; }
+  
+  /*---------Servicios-----------*/
+  .servicios-container {
+    background-color: #191970;
+    width: 100%;
+    height: 450px;
+    box-shadow: 0 0 8px 1px black; }
+    .servicios-container h2 {
+      text-align: center;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 25px;
+      padding-top: 30px;
+      color: #fffffe;
+      padding-top: 40px;
+      margin-bottom: 2rem; }
+    .servicios-container .servicios-subcontainer {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-right: 20px;
+      margin-left: 20px; }
+      .servicios-container .servicios-subcontainer div {
+        width: 20%;
+        text-align: center;
+        border: solid 1px #181818;
+        border-radius: 3px;
+        align-items: center;
+        padding: 1rem;
+        transition: 0.5s;
+        background-color: #31295a; }
+        .servicios-container .servicios-subcontainer div:hover {
+          box-shadow: 3px 3px 2px 2px rgba(0, 0, 0, 0.5);
+          background-color: #2776aa; }
+        .servicios-container .servicios-subcontainer div img {
+          width: 40%; }
+        .servicios-container .servicios-subcontainer div h3 {
+          text-align: center;
+          font-family: 'Titillium Web', sans-serif;
+          font-size: 25px;
+          padding-top: 30px;
+          color: #fffffe; }
+        .servicios-container .servicios-subcontainer div .btn-serv {
+          border: 1px solid #fff;
+          background: none;
+          color: #fff;
+          padding: 8px 16px;
+          font-size: 18px;
+          font-family: 'Roboto', sans-serif;
+          cursor: pointer;
+          margin: 10px;
+          transition: 0.8s;
+          position: relative;
+          overflow: hidden; }
+          .servicios-container .servicios-subcontainer div .btn-serv:hover {
+            color: #3498db;
+            background: white; }
+  
+  /*----------Frase--------------*/
+  .frase {
+    background-color: #00CED1;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; }
+    .frase div {
+      width: 60%;
+      align-items: center; }
+    .frase p {
+      font-size: 20px;
+      text-align: center;
+      color: #191970; }
+    .frase .autor {
+      color: #191970;
+      text-align: right; }
+  
+  /*-----------Blog--------------*/
+  .section-blog {
+    background-color: #191970;
+    box-shadow: 0 0 8px 1px black;
+    width: 100%;
+    height: 450px; }
+    .section-blog h1 {
+      text-align: center;
+      text-align: center;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 25px;
+      padding-top: 30px;
+      color: #fffffe; }
+    .section-blog .blog-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly; }
+      .section-blog .blog-container div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 30px;
+        text-align: center;
+        background-color: #4683b477;
+        width: 25%;
+        height: 250px;
+        padding: 30px;
+        border-radius: 15px; }
+        .section-blog .blog-container div h2 {
+          align-items: center;
+          text-align: center;
+          font-family: 'Titillium Web', sans-serif;
+          font-size: 25px;
+          padding-top: 30px;
+          color: #fffffe;
+          font-size: 20px; }
+        .section-blog .blog-container div button {
+          border: 1px solid #fff;
+          background: none;
+          color: #fff;
+          padding: 8px 16px;
+          font-size: 18px;
+          font-family: 'Roboto', sans-serif;
+          cursor: pointer;
+          margin: 10px;
+          transition: 0.8s;
+          position: relative;
+          overflow: hidden; }
+          .section-blog .blog-container div button:hover {
+            color: #3498db;
+            background: white; }
+  
+  /*--------Logo WP-------------*/
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100; }
+  
+  .my-float {
+    margin-top: 16px; }
+  
+  /*--------Formulario-----------*/
+  .form-container {
+    background-color: #eeeeee;
+    align-items: center;
+    height: 500px;
+    width: 100%; }
+    .form-container h2 {
+      text-align: center;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 25px;
+      padding-top: 30px;
+      color: #191970; }
+    .form-container .form-row {
+      display: flex;
+      height: 80%;
+      justify-content: space-evenly;
+      align-items: center;
+      flex: wrap; }
+    .form-container .datos-contacto {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      width: 50%;
+      text-align: left; }
+      .form-container .datos-contacto a {
+        text-decoration: none; }
+      .form-container .datos-contacto h5 {
+        text-align: center;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 25px;
+        padding-top: 30px;
+        color: #191970;
+        text-decoration: none; }
+      .form-container .datos-contacto .redes-form .iconos {
+        width: 50px;
+        height: 50px;
+        margin-top: 20px; }
+    .form-container .formulario {
+      width: 60%;
+      text-align: center; }
+      .form-container .formulario .btn-form {
+        border: 1px solid #fff;
+        background: none;
+        color: #fff;
+        padding: 8px 16px;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        margin: 10px;
+        transition: 0.8s;
+        position: relative;
+        overflow: hidden;
+        color: #191970; }
+        .form-container .formulario .btn-form:hover {
+          color: #3498db;
+          background: white; }
+      .form-container .formulario div {
+        margin: 5px;
+        color: #191970; }
+      .form-container .formulario .input-contacto {
+        width: 65%;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #00CED1;
+        color: #191970;
+        border: 1px solid; }
+  
+  /*----------Footer-------------*/
+  .footer-container {
+    background-color: #191970;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 8px 1px black; }
+    .footer-container h4 {
+      text-align: center;
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 25px;
+      padding-top: 30px;
+      color: #fffffe; }
+    .footer-container ul li {
+      color: #00CED1; }
+      .footer-container ul li a {
+        text-decoration: none; }
+    .footer-container .footer-redes {
+      text-align: center; }
+      .footer-container .footer-redes .iconos-footer {
+        display: inline;
+        width: 40px;
+        height: 40px;
+        margin-top: 20px; }
+  
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    .intro-container {
+      height: 1100px; }
+    .intro-subcontainer {
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center; }
+    .servicios-container {
+      height: 1100px; }
+      .servicios-container .servicios-subcontainer {
+        flex-direction: column;
+        justify-content: space-evenly; }
+        .servicios-container .servicios-subcontainer div {
+          width: auto; }
+    .section-blog {
+      height: 1100px; }
+      .section-blog .blog-container {
+        flex-direction: column; }
+        .section-blog .blog-container div {
+          width: 80%; }
+    .form-container {
+      height: 1100px; }
+      .form-container .form-row {
+        flex-direction: column;
+        justify-content: space-evenly; }
+    .footer-container {
+      height: 600px;
+      flex-direction: column; } }
+  
